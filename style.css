@@ -1,0 +1,49 @@
+.QR{
+    border: 1px solid black;
+    padding: 12px;
+    background-color: white;
+    text-align: center;
+    height: 70vh;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    border: none;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.img{
+    border-radius: 20px;
+}
+
+.para{
+    color: gray;
+    font-size: large;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body{
+    background-color:hsl(212, 45%, 89%);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .QR {
+      width: 80%; /* Adjust the width for smaller screens */
+      height: auto; /* Allow the height to adjust based on content */
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .QR {
+      width: 300px; /* Adjust width for extra-large screens */
+    }
+  }
